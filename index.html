@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,16 +10,14 @@
   <link rel="stylesheet" href="./css/main.css">
   <!-- <link rel="stylesheet" href="./css/main.min.css"> -->
 </head>
+
 <body>
   <!-- SITE HEADER START -->
   <header class="site-header">
     <div class="container">
       <div class="header-box">
         <a class="logo" href="./index.html">
-          <img class="logo__img" src="./images/logo.svg" 
-          width="163"
-          height="18"
-          alt="Coffeeroasters site's logo">
+          <img class="logo__img" src="./images/logo.svg" width="163" height="18" alt="Coffeeroasters site's logo">
         </a>
         <button class="header-box__btn" type="button"></button>
         <nav class="header-box__nav">
@@ -40,17 +39,22 @@
   <!-- SITE HEADER END -->
   <!-- SITE MAIN START -->
   <main>
-    <!-- SECTION START -->
+    <!-- SECTION GREAT START -->
     <section class="great">
       <div class="container">
         <div class="great-wrap">
           <div class="great-box">
-            <h1 class="great-box__title">
-              Great coffee made simple.
-            </h1>
-            <p class="great-box__text">
-              Start your mornings with the world’s best coffees. Try our expertly curated artisan coffees from our best roasters delivered directly to your door, at your schedule.
-            </p>
+            <div class="great-box__title-box">
+              <h1 class="great-box__title">
+                Great coffee made simple.
+              </h1>
+            </div>
+            <div class="great-box__text-box">
+              <p class="great-box__text">
+                Start your mornings with the world’s best coffees. Try our expertly curated artisan coffees from our
+                best roasters delivered directly to your door, at your schedule.
+              </p>
+            </div>
             <span class="great-box__link-tiny">
               <a class="great-box__link" href="#">Create your plan</a>
             </span>
@@ -58,14 +62,99 @@
         </div>
       </div>
     </section>
-    <!-- SECTION END -->
-    <!-- SECTION START -->
-    <section>
+    <!-- SECTION GREAT END -->
+    <!-- SECTION OUR START -->
+    <section class="our">
+      <h2 class="visually-hidden">Our collection</h2>
       <div class="container">
-
+        <div class="our-box"></div>
+        <ul class="our-list">
+          <li class="our-list__item">
+            <img class="our-list__img" src="./images/gran.png" width="200" height="151"
+              srcset="./images/gran.png 1x, ./images/gran-retina.png 2x" alt="Gran coffee">
+            <div class="our-list__box">
+              <h3 class="our-list__title">Gran Espresso</h3>
+              <p class="our-list__text">
+                Light and flavorful blend with cocoa and black pepper for an intense experience
+              </p>
+            </div>
+          </li>
+          <li class="our-list__item">
+            <img class="our-list__img" src="./images/planalto.png" width="200" height="151"
+              srcset="./images/planalto.png 1x, ./images/planalto-retina.png 2x" alt="Planalto coffee">
+            <div class="our-list__box">
+              <h3 class="our-list__title">Planalto</h3>
+              <p class="our-list__text">
+                Brazilian dark roast with rich and velvety body, and hints of fruits and nuts
+              </p>
+            </div>
+          </li>
+          <li class="our-list__item">
+            <img class="our-list__img" src="./images/picollo.png" width="200" height="151"
+              srcset="./images/picollo.png 1x, ./images/picollo-retina.png 2x" alt="Picollo coffee">
+            <div class="our-list__box">
+              <h3 class="our-list__title">Piccollo</h3>
+              <p class="our-list__text">
+                Mild and smooth blend featuring notes of toasted almond and dried cherry
+              </p>
+            </div>
+          </li>
+          <li class="our-list__item">
+            <img class="our-list__img" src="./images/danche.png" width="200" height="151"
+              srcset="./images/danche.png 1x, ./images/danche-retina.png 2x" alt="Danche coffee">
+            <div class="our-list__box">
+              <h3 class="our-list__title">Danche</h3>
+              <p class="our-list__text">
+                Ethiopian hand-harvested blend densely packed with vibrant fruit notes
+              </p>
+            </div>
+          </li>
+        </ul>
       </div>
     </section>
-    <!-- SECTION END -->
+    <!-- SECTION OUR END -->
+
+    <!-- SECTION CHOOSE START END -->
+    <section class="choose">
+      <div class="container">
+        <div class="choose-wrapper">
+          <div class="choose-box">
+            <h2 class="choose-box__title">Why choose us?</h2>
+            <p class="choose-box__text">
+              A large part of our role is choosing which particular coffees will be featured in our range. This means
+              working closely with the best coffee growers to give you a more impactful experience on every level.
+            </p>
+          </div>
+          <ul class="choose-list">
+            <li class="choose-list__item">
+              <div class="choose-list__box">
+                <h3 class="choose-list__title">Best quality</h3>
+                <p class="choose-list__text">
+                  Discover an endless variety of the world’s best artisan coffee from each of our roasters.
+                </p>
+              </div>
+            </li>
+            <li class="choose-list__item">
+              <div class="choose-list__box">
+                <h3 class="choose-list__title">Exclusive benefits</h3>
+                <p class="choose-list__text">
+                  Special offers and swag when you subscribe, including 30% off your first shipment.
+                </p>
+              </div>
+            </li>
+            <li class="choose-list__item">
+              <div class="choose-list__box">
+                <h3 class="choose-list__title">Free shipping</h3>
+                <p class="choose-list__text">
+                  We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION CHOOSE OUR END -->
   </main>
   <!-- SITE MAIN END-->
 
@@ -77,5 +166,7 @@
   </footer>
   <!-- SITE FOOTER END -->
 
+  <script src="./js/main.js"></script>
 </body>
+
 </html>
